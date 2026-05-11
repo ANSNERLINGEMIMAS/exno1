@@ -27,7 +27,41 @@ data=pd.read_csv("/content/SAMPLEIDS.csv")
 data
 ```
 <br>
-https://colab.research.google.com/drive/1_uU5qxbT7LvTErphI6iTeSpHTj69JDo4#scrollTo=6J5n4DvS3hoN&fullscreenOutput=true
+<img width="309" height="262" alt="image" src="https://github.com/user-attachments/assets/a02ad4be-49f9-441a-904c-a670a0e62ffe" />
+
+<br>
+```
+data.info()
+```
+<br>
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 21 entries, 0 to 20
+Data columns (total 12 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   SNO      21 non-null     int64  
+ 1   REGNO    21 non-null     int64  
+ 2   NAME     20 non-null     object 
+ 3   DOB      21 non-null     object 
+ 4   GENDER   20 non-null     object 
+ 5   ADDRESS  20 non-null     object 
+ 6   M1       18 non-null     float64
+ 7   M2       19 non-null     float64
+ 8   M3       17 non-null     float64
+ 9   M4       18 non-null     float64
+ 10  TOTAL    16 non-null     float64
+ 11  AVG      20 non-null     float64
+dtypes: float64(6), int64(2), object(4)
+memory usage: 2.1+ KB
+```
+<br>
+```
+data.describe()
+```
+<br>
+
+
     
   
 
