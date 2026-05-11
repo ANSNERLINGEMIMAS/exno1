@@ -33,6 +33,8 @@ data
 data.info()
 ```
 <br>
+
+```
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 21 entries, 0 to 20
 Data columns (total 12 columns):
