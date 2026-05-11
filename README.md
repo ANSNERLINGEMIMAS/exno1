@@ -28,7 +28,7 @@ data
 ```
 <br>
 <img width="309" height="262" alt="image" src="https://github.com/user-attachments/assets/a02ad4be-49f9-441a-904c-a670a0e62ffe" />
-
+<br>
 ```
 data.info()
 ```
@@ -56,9 +56,13 @@ dtypes: float64(6), int64(2), object(4)
 memory usage: 2.1+ KB
 ```
 <br>
+
 ```
 data.describe()
+
 ```
+<br>
+
 <img width="299" height="112" alt="image" src="https://github.com/user-attachments/assets/921a5d22-b273-49d3-88ba-e070ab04b44b" />
 
 
