@@ -29,12 +29,10 @@ data
 <br>
 <img width="309" height="262" alt="image" src="https://github.com/user-attachments/assets/a02ad4be-49f9-441a-904c-a670a0e62ffe" />
 
-<br>
 ```
 data.info()
 ```
 <br>
-```
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 21 entries, 0 to 20
 Data columns (total 12 columns):
@@ -59,7 +57,7 @@ memory usage: 2.1+ KB
 ```
 data.describe()
 ```
-<br>
+
 
 
     
