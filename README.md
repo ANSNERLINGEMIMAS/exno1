@@ -55,25 +55,24 @@ Data columns (total 12 columns):
 dtypes: float64(6), int64(2), object(4)
 memory usage: 2.1+ KB
 ```
-<br>
+
 
 ```
 data.describe()
 
 ```
-<br>
 
-<img width="299" height="112" alt="image" src="https://github.com/user-attachments/assets/921a5d22-b273-49d3-88ba-e070ab04b44b" />
+
+<img width="299" height="112" alt="image" src="https://github.com/user-attachments/assets/921a5d22-b273-49d3-88ba-e070ab04b44b" /><br>
 ```
 data.isnull()
 ```
-<br>
-<img width="262" height="262" alt="image" src="https://github.com/user-attachments/assets/c622640d-a103-4390-a5cd-a973dac63692" />
+
+<img width="262" height="262" alt="image" src="https://github.com/user-attachments/assets/c622640d-a103-4390-a5cd-a973dac63692" /><br>
 ```
 data.notnull()
 ```
-<br>
-<img width="263" height="260" alt="image" src="https://github.com/user-attachments/assets/9d4e6998-a920-440e-a5ff-7d7370f529c1" />
+<img width="263" height="260" alt="image" src="https://github.com/user-attachments/assets/9d4e6998-a920-440e-a5ff-7d7370f529c1" /><br>
 ```
 data.notnull().sum()
 ```
