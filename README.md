@@ -26,13 +26,12 @@ import pandas as pd
 data=pd.read_csv("/content/SAMPLEIDS.csv")
 data
 ```
-<br>
 <img width="309" height="262" alt="image" src="https://github.com/user-attachments/assets/a02ad4be-49f9-441a-904c-a670a0e62ffe" />
 
 ```
 data.info()
 ```
-<br>
+
 
 ```
 <class 'pandas.core.frame.DataFrame'>
@@ -111,7 +110,7 @@ data.fillna("Datascience")
 ```
 
 <img width="326" height="167" alt="image" src="https://github.com/user-attachments/assets/ae6121a0-8aec-4818-a665-1ec359b82d88" /><br>
-``
+```
 data1.fillna(method='ffill')
 ```
 
