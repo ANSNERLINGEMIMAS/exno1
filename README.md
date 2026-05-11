@@ -76,116 +76,116 @@ data.notnull()
 ```
 data.notnull().sum()
 ```
-<br>
-<img width="78" height="171" alt="image" src="https://github.com/user-attachments/assets/48d0a6eb-df91-4c52-ac75-64ba7a7352d9" />
+
+<img width="78" height="171" alt="image" src="https://github.com/user-attachments/assets/48d0a6eb-df91-4c52-ac75-64ba7a7352d9" /><br>
 ```
 data.dropna()
 ```
-<br>
-<img width="327" height="169" alt="image" src="https://github.com/user-attachments/assets/fceda88b-099c-42b3-be0b-8b292d9d809a" />
+
+<img width="327" height="169" alt="image" src="https://github.com/user-attachments/assets/fceda88b-099c-42b3-be0b-8b292d9d809a" /><br>
 ```
 data.dropna(axis=1)
 ```
-<br>
-<img width="91" height="261" alt="image" src="https://github.com/user-attachments/assets/59d964db-d893-4f4f-a69f-2260d7e088a2" />
+
+<img width="91" height="261" alt="image" src="https://github.com/user-attachments/assets/59d964db-d893-4f4f-a69f-2260d7e088a2" /><br>
 ```
 data
 ```
-<br>
-<img width="314" height="266" alt="image" src="https://github.com/user-attachments/assets/0ade14f5-fa03-431b-9a64-020073263c9a" />
+
+<img width="314" height="266" alt="image" src="https://github.com/user-attachments/assets/0ade14f5-fa03-431b-9a64-020073263c9a" /><br>
 ```
 data.dropna(inplace=True)
 data
 ```
-<br>
-<img width="318" height="175" alt="image" src="https://github.com/user-attachments/assets/6a2920ff-139f-484c-9ffb-55b35abb647e" />
+
+<img width="318" height="175" alt="image" src="https://github.com/user-attachments/assets/6a2920ff-139f-484c-9ffb-55b35abb647e" /><br>
 ```
 import pandas as pd
 data1=pd.read_csv("/content/Loan_data.csv")
 data1
 ```
-<br>
-<img width="503" height="151" alt="image" src="https://github.com/user-attachments/assets/24951881-0de9-4e89-bbe3-5e6d685403ae" />
+
+<img width="503" height="151" alt="image" src="https://github.com/user-attachments/assets/24951881-0de9-4e89-bbe3-5e6d685403ae" /><br>
 ```
 data.fillna("Datascience")
 ```
-<br>
-<img width="326" height="167" alt="image" src="https://github.com/user-attachments/assets/ae6121a0-8aec-4818-a665-1ec359b82d88" />
+
+<img width="326" height="167" alt="image" src="https://github.com/user-attachments/assets/ae6121a0-8aec-4818-a665-1ec359b82d88" /><br>
 ``
 data1.fillna(method='ffill')
 ```
-<br>
-<img width="512" height="170" alt="image" src="https://github.com/user-attachments/assets/712448e9-1803-43b0-be00-a2cb17b175d7" />
+
+<img width="512" height="170" alt="image" src="https://github.com/user-attachments/assets/712448e9-1803-43b0-be00-a2cb17b175d7" /><br>
 ```
 data
 ```
-<br>
-<img width="329" height="168" alt="image" src="https://github.com/user-attachments/assets/7eb648af-0356-4622-aaf8-dd91b6e3359e" />
+
+<img width="329" height="168" alt="image" src="https://github.com/user-attachments/assets/7eb648af-0356-4622-aaf8-dd91b6e3359e" /><br>
 ```
 data=pd.read_csv("/content/SAMPLEIDS.csv")
 data
 ```
-<br>
-<img width="314" height="265" alt="image" src="https://github.com/user-attachments/assets/bb3ab468-a89a-449b-b92e-3d86b30b40d7" />
+
+<img width="314" height="265" alt="image" src="https://github.com/user-attachments/assets/bb3ab468-a89a-449b-b92e-3d86b30b40d7" /><br>
 ```
 data.ffill()
 ```
-<br>
-<img width="317" height="257" alt="image" src="https://github.com/user-attachments/assets/06368e2d-c496-4e83-85a1-f93f835b24a0" />
+
+<img width="317" height="257" alt="image" src="https://github.com/user-attachments/assets/06368e2d-c496-4e83-85a1-f93f835b24a0" /><br>
 ```
 data=pd.read_csv("/content/SAMPLEIDS.csv")
 data.bfill()
 ```
-<br>
-<img width="326" height="268" alt="image" src="https://github.com/user-attachments/assets/83c72b4c-a64e-4e1d-894d-9355f60300ed" />
+
+<img width="326" height="268" alt="image" src="https://github.com/user-attachments/assets/83c72b4c-a64e-4e1d-894d-9355f60300ed" /><br>
 ```
 data['TOTAL'].fillna(method='bfill',inplace=True)
 ```
-<br>
-<img width="624" height="59" alt="image" src="https://github.com/user-attachments/assets/b1db6926-6bfd-4cee-9d16-2e9bc321e498" />
+
+<img width="624" height="59" alt="image" src="https://github.com/user-attachments/assets/b1db6926-6bfd-4cee-9d16-2e9bc321e498" /><br>
 ```
 data
 ```
-<br>
 
-<img width="338" height="260" alt="image" src="https://github.com/user-attachments/assets/7c5f7543-d7bf-433f-93ad-f9fdf0f1fe8a" />
+
+<img width="338" height="260" alt="image" src="https://github.com/user-attachments/assets/7c5f7543-d7bf-433f-93ad-f9fdf0f1fe8a" /><br>
 ```
 data['M4'].fillna(value=data['M4'].mean(),inplace=True)
 ```
-<br>
 
-<img width="624" height="51" alt="image" src="https://github.com/user-attachments/assets/706ead9e-4647-40bb-8422-295db4030534" />
+
+<img width="624" height="51" alt="image" src="https://github.com/user-attachments/assets/706ead9e-4647-40bb-8422-295db4030534" /><br>
 ```
 data
 ```
-<br>
 
-<img width="333" height="265" alt="image" src="https://github.com/user-attachments/assets/6403ae44-95b1-4fb7-b69e-57a64817d873" />
+
+<img width="333" height="265" alt="image" src="https://github.com/user-attachments/assets/6403ae44-95b1-4fb7-b69e-57a64817d873" /><br>
 ```
 data['M4'].fillna(value=data['M4'].median(),inplace=True)
 ```
-<br>
 
-<img width="631" height="50" alt="image" src="https://github.com/user-attachments/assets/a292934f-018c-4fd0-b35e-fb44e0484f05" />
+
+<img width="631" height="50" alt="image" src="https://github.com/user-attachments/assets/a292934f-018c-4fd0-b35e-fb44e0484f05" /><br>
 ```
 data
 ```
-<br>
 
 
-<img width="365" height="269" alt="image" src="https://github.com/user-attachments/assets/2bf02d34-c568-43aa-a87a-a3902a104a4b" />
+
+<img width="365" height="269" alt="image" src="https://github.com/user-attachments/assets/2bf02d34-c568-43aa-a87a-a3902a104a4b" /><br>
 ```
 data['M4'].fillna(value=data['M4'].mode(),inplace=True)
 ```
-<br>
 
-<img width="630" height="53" alt="image" src="https://github.com/user-attachments/assets/d542323d-3ce2-4f9f-bd51-3382c8a329db" />
+
+<img width="630" height="53" alt="image" src="https://github.com/user-attachments/assets/d542323d-3ce2-4f9f-bd51-3382c8a329db" /><br>
 ```
 data
 ```
-<br>
 
-<img width="334" height="262" alt="image" src="https://github.com/user-attachments/assets/a74b1a22-ab42-4a5e-9962-c7183fad106b" />
+
+<img width="334" height="262" alt="image" src="https://github.com/user-attachments/assets/a74b1a22-ab42-4a5e-9962-c7183fad106b" /><br>
 
 
 
