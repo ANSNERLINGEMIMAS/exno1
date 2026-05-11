@@ -59,6 +59,8 @@ memory usage: 2.1+ KB
 ```
 data.describe()
 ```
+<img width="299" height="112" alt="image" src="https://github.com/user-attachments/assets/921a5d22-b273-49d3-88ba-e070ab04b44b" />
+
 
 
 
